@@ -1,43 +1,6 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="../lib/bootstrap-3.1.1-dist/css/bootstrap.min.css" />
-	<link rel="stylesheet" type="text/css" href="../css/styles.css" />
-	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-	<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-	<script src="../lib/bootstrap-3.1.1-dist/js/bootstrap.min.js"></script>	
 
-</head>
-<body>
-	<nav class="navbar navbar-default" role="navigation">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-1 col-md-1 col-sm-1">
-					<a class="navbar-brand" href="index.html"><span class="glyphicon glyphicon-home"></span></a>
-				</div>
-				<div class="col-lg-10 col-md-10 col-sm-10">
-				   	<span class="input-group nav-search-bar">
-				   		<input type="text" class="form-control" placeholder="Search by employee or form">
-				     		<span class="input-group-btn">
-				        		<button class="btn btn-default" type="button"><span class="glyphicon glyphicon-search"></span></button>
-					      	</span>
-				    </span><!-- /input-group -->
-				</div><!-- /.col-lg-10 -->
-				<div class="col-lg-1 col-md-1 col-sm-1">
-					<a class="navbar-brand" href="index.html"><span class="glyphicon glyphicon-off"></span></a>
-				</div>
-			</div><!-- /.row -->
-	    </div>
-	</nav>
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-3 col-md-3">
-				<div class="employee-sidebar">
 					<div class="employee-sidebar-item">
-						<div class="employee-sidebar-item-name">Alabaster, John</div>
+						<div class="employee-sidebar-item-name">Alabastser, John</div>
 						<div class="progress">
   							<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
     							<span class="sr-only">40% Complete (success)</span>
@@ -196,57 +159,4 @@
   							</div>
 						</div>
 					</div>
-				</div>
-			</div>
-			<div class="col-lg-9 col-md-9">
-				<div class="content-title">
-					<h3 class="text-center">John Alabaster</h3>
-				</div>
-				<div class="btn-group btn-group-justified add-employee">
-				  <div class="btn-group">
-				    <button type="button" class="btn btn-primary">Add employee</button>
-				  </div>
-				</div>
-				<div class="row">
-					<div class="col-lg-12 col-md-12">
-						<h4>Employee Information</h4>
-						<table class="table table-striped">
-							<thead>
-							</thead>
-							<tbody>
-								<tr>
-									<td class="row-label">First Name</td>
-									<td>John</td>
-								</tr>
-								<tr>
-									<td class="row-label">Last Name</td>
-									<td>Alabaster</td>
-								</tr>
-								<tr>
-									<td class="row-label">Job Title</td>
-									<td>Software Developer</td>
-								</tr>
-								<tr>
-									<td class="row-label">Benefits Package</td>
-									<td>Package A</td>
-								</tr>
-								<tr>
-									<td class="row-label">Pay Rate</td>
-									<td>$20 per hour</td>
-								</tr>
-								<tr>
-									<td class="row-label">Vacation Accrued</td>
-									<td>25 hours</td>
-								</tr>
-							</tbody>
-						</table>
-					</div>
-					<div class="col-lg-6 col-md-6">
-						
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</body>
-</html>
+

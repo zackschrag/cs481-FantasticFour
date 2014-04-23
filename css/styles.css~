@@ -3,8 +3,7 @@
 }
 
 .employee-sidebar {
-	overflow: auto; /*scrollbar*/
-	height: 600px;
+	overflow: auto; 
 	border: solid black #ccc;
 }
 
