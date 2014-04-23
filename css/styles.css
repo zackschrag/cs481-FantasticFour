@@ -1,0 +1,42 @@
+.nav-search-bar {
+	margin-top: 8px;
+}
+
+.employee-sidebar {
+	border: solid black #ccc;
+}
+
+.employee-sidebar-item {
+	height: 60px;
+	border: solid #ccc 1px;
+	cursor: pointer;
+	margin-top: 2px;
+}
+
+.employee-sidebar-item:hover {
+	background-color: #f0f0f0;
+}
+
+.employee-sidebar-item-name {
+	margin-top: 3px;
+	margin-left: 15px;
+	font-size: 17px;
+}
+
+.progress {
+	width: 80%;
+	margin-left: 15px;
+}
+
+.content-title {
+	margin-top: 2px;
+	border: solid 1px #ccc;
+}
+
+.add-employee {
+	margin-top: 10px;
+}
+
+.row-label {
+	font-weight: bold;
+}
