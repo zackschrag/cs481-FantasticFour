@@ -1,3 +1,7 @@
+#login-button > a {
+	color: #fff;
+}
+
 .nav-search-bar {
 	margin-top: 8px;
 }
@@ -39,4 +43,12 @@
 
 .row-label {
 	font-weight: bold;
+}
+
+.login-form {
+	width: 400px;
+}
+
+.form-control {
+	margin-top: 3px;
 }
