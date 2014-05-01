@@ -1,3 +1,13 @@
+a {
+	color: #000;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #000;
+	text-decoration: none;
+}
+
 #login-button > a {
 	color: #fff;
 }
@@ -51,4 +61,27 @@
 
 .form-control {
 	margin-top: 3px;
+}
+
+.form-valid {
+	font-size: 25px;
+}
+
+.glyphicon-ok-circle {
+	color: green;
+}
+
+.glyphicon-remove-circle {
+	color: #D9534F;
+}
+
+.content-title > .text-center {
+	font-size: 25px;
+}
+
+
+.edit-employee-button {
+	position: absolute;
+	right: 25px;
+	top: 17px;
 }
