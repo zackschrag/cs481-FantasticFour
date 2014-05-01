@@ -1,3 +1,7 @@
+#login-button > a {
+	color: #fff;
+}
+
 .nav-search-bar {
 	margin-top: 8px;
 }
@@ -43,3 +47,13 @@
 	font-weight: bold;
 }
 
+<<<<<<< HEAD
+=======
+.login-form {
+	width: 400px;
+}
+
+.form-control {
+	margin-top: 3px;
+}
+>>>>>>> c2ada1bcfa86174f219acd8216ae07d10e026471
