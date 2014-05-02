@@ -1,0 +1,25 @@
+function popup(){
+    var xhr=null;
+
+    if (window.XMLHttpRequest) { 
+        xhr = new XMLHttpRequest();
+    }
+    else if (window.ActiveXObject) {
+        xhr = new ActiveXObject("Microsoft.XMLHTTP");
+    }
+    xhr.onreadystatechange = function() {
+      if(xhr.readyState == 4){ alert_ajax(xhr); }
+     }
+    xhr.open("GET", "myscript.php", true);
+    xhr.send(null);
+}
+
+function alert_ajax(xhr){
+   var docAjax= xhr.responseText;
+   r=confirm(docAjax);
+
+        if (r==true)
+            {
+                window.location = "http://example.com";
+            }
+}

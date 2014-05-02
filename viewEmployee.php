@@ -2,7 +2,7 @@
 <?php include(dirname(__FILE__).'/common/functions/setupEverything.php');?>
 <!--xml header-->
 <?php include(dirname(__FILE__).'/common/xmlhead.php');?>
-<title>view</title>
+<title>View Employee</title>
 <!--end head-->
 <?php include(dirname(__FILE__).'/common/top.php');?>
 
@@ -13,17 +13,20 @@
 					<?php include(dirname(__FILE__).'/common/functions/showEmployeeList.php');?>
 				</div>
 			</div>
+
+
+<!--<button class="edit-employee-button pull-right btn btn-default" type="button">Edit</button>-->
 			<?php
 				if ($_GET["employee"]){
 					$empKey = $_GET["employee"];
 					echo '<div class="col-lg-9 col-md-9 col-sm-9 col-xs-9">
 						<div class="content-title">
 						<h3 class="text-center">'.$employees[$empKey]->firstName." ".$employees[$empKey]->lastName.'
-						<button class="edit-employee-button pull-right btn btn-default" type="button">Edit</button>
+						<a class="edit-employee-button pull-right btn btn-default" href="editEmployee.php?employee='.$empKey.'" role="button">Edit</a>
 						</h3>
 						</div>';
 
-					
+					echo '';
 					//Begin First Row
 					echo '<div class="row">';
 					
@@ -143,12 +146,6 @@
 					//end second row
 					echo '</div>'; //end row
 
-
-					echo '';
-					echo '';
-					echo '';
-					echo '';
-					echo '';
 					echo '</div>'; //end <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9">
 					
 					

@@ -15,7 +15,11 @@
 			</div>
 
 			<div class="col-lg-9 col-md-9">
-
+				<div class="btn-group btn-group-justified add-employee">
+					<div class="btn-group">
+						<button type="button" class="btn btn-primary">Add employee</button>
+				</div>
+			</div>
 				<table class="table table-bordered">
 					<thead>
 						<h3>Recent Activity</h3>

@@ -6,23 +6,16 @@
 <!--end head-->
 <?php include(dirname(__FILE__).'/common/top.php');?>
 
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-3 col-md-3">
-				<div class="employee-sidebar">
-					<?php include(dirname(__FILE__).'/common/functions/showEmployeeList.php');?>
-				</div>
-			</div>
-
-
-<!--<button class="edit-employee-button pull-right btn btn-default" type="button">Edit</button>-->
 			<?php
 				if ($_GET["employee"]){
 					$empKey = $_GET["employee"];
+
+					//echo '<form action ="viewEmployee.php?employee='.$empKey.'">';
+
+
 					echo '<div class="col-lg-9 col-md-9 col-sm-9 col-xs-9">
 						<div class="content-title">
 						<h3 class="text-center">'.$employees[$empKey]->firstName." ".$employees[$empKey]->lastName.'
-						<a class="edit-employee-button pull-right btn btn-default" href="editEmployee.php?employee='.$empKey.'" role="button">Edit</a>
 						</h3>
 						</div>';
 
@@ -38,24 +31,26 @@
 							</thead>
 							<tbody>
 								<tr>
+									
+    								
 									<td class="row-label">First Name</td>
-									<td>'.$employees[$empKey]->firstName.'</td>
+									<td><input type="" class="form-control" id="firstName" placeholder="'.$employees[$empKey]->firstName.'"></td>
 								</tr>
 								<tr>
 									<td class="row-label">Last Name</td>
-									<td>'.$employees[$empKey]->lastName.'</td>
+									<td><input type="" class="form-control" id="lastName" placeholder="'.$employees[$empKey]->lastName.'"></td>
 								</tr>
 								<tr>
 									<td class="row-label">Job Title</td>
-									<td>'.$employees[$empKey]->jobTitle.'</td>
+									<td><input type="" class="form-control" id="jobTitle" placeholder="'.$employees[$empKey]->jobTitle.'"></td>
 								</tr>
 								<tr>
 									<td class="row-label">Benefits Package</td>
-									<td>'.$employees[$empKey]->benefitsPackage.'</td>
+									<td><input type="" class="form-control" id="benefitsPackage" placeholder="'.$employees[$empKey]->benefitsPackage.'"></td>
 								</tr>
 								<tr>
 									<td class="row-label">Pay Rate</td>
-									<td>'.$employees[$empKey]->payRate.'</td>
+									<td><input type="" class="form-control" id="payRate" placeholder="'.$employees[$empKey]->payRate.'"></td>
 								</tr>
 							</tbody>
 						</table>
@@ -71,19 +66,19 @@
 							<tbody>
 								<tr>
 									<td class="row-label">Hours this week</td>
-									<td>'.$employees[$empKey]->hoursThisWeek.'</td>
+									<td><input type="" class="form-control" id="hoursThisWeek" placeholder="'.$employees[$empKey]->hoursThisWeek.'"></td>
 								</tr>
 								<tr>
 									<td class="row-label">Hours last week</td>
-									<td>'.$employees[$empKey]->hoursLastWeek.'</td>
+									<td><input type="" class="form-control" id="hoursLastWeek" placeholder="'.$employees[$empKey]->hoursLastWeek.'"></td>
 								</tr>
 								<tr>
 									<td class="row-label">Average hours per week</td>
-									<td>'.$employees[$empKey]->averageHours.'</td>
+									<td><input type="" class="form-control" id="averageHours" placeholder="'.$employees[$empKey]->averageHours.'"></td>
 								</tr>
 								<tr>
 									<td class="row-label">Vacation Accrued</td>
-									<td>'.$employees[$empKey]->vacationAccrued.'</td>
+									<td><input type="" class="form-control" id="vacationAccrued" placeholder="'.$employees[$empKey]->vacationAccrued.'"></td>
 								</tr>
 							</tbody>
 						</table>
@@ -142,24 +137,17 @@
 							</tbody>
 						</table>
 					</div>';
+						
+						
+					//save button					
+					echo '<div class="col-lg-6 col-md-6"><a class="edit-employee-button pull-right btn btn-primary btn-lg" href="viewEmployee.php?employee='.$empKey.'" role="button">Save</a></div>';
+					//echo '<div class="col-lg-6 col-md-6"><input type="submit" value="Save"></form>';
 
 					//end second row
 					echo '</div>'; //end row
 
 
-					echo '';
-					echo '';
-					echo '';
-					echo '';
-					echo '';
 					echo '</div>'; //end <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9">
-					
-					
-					
-
-				}
-				else{
-					echo "Did not receive proper GET data.";
 				}
 			?>
 
