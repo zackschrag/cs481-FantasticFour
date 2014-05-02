@@ -1,14 +1,16 @@
+<!--VERY IMPORTANT-->
+<?php include(dirname(__FILE__).'/common/functions/setupEverything.php');?>
 <!--xml header-->
-<?php include('./common/xmlhead.php');?>
-<title>Test</title>
+<?php include(dirname(__FILE__).'/common/xmlhead.php');?>
+<title>SECOND</title>
 <!--end head-->
-<?php include('./common/top.php');?>
+<?php include(dirname(__FILE__).'/common/top.php');?>
 
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-3 col-md-3">
 				<div class="employee-sidebar">
-					<?php include('./common/employee_list.php');?>
+					<?php include(dirname(__FILE__).'/common/functions/showEmployeeList.php');?>
 				</div>
 			</div>
 
@@ -42,4 +44,4 @@
 
 
 <!--end body/html-->
-<?php include('./common/bot.php');?>
+<?php include(dirname(__FILE__).'/common/bot.php');?>

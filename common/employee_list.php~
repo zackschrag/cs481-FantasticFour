@@ -1,26 +1,54 @@
-<?php
+<?php //include"./functions/Employee.php";
+include(DIR.'/functions/Employee.php');
 	$employees = array(
-		"Alabastser, John" => 100,
-		"Brickman, Bill" => 10,
-		"Charles, Linda" => 30,
-		"Danforth, Kyle" => 80,
-		"Gregory, Karen" => 100,
-		
-	);
+		"Alabastser, John" => new Employee(
+				/*First Name*/	"John",
+				 /*Last Name*/	"Alabastser",
+				 /*Job Title*/	"Job Title",
+				  /*Benefits*/	"Package A",
+				  /*Pay Rate*/	"$0 per year",
+			   /*Hours this Week*/  0,
+			   /*Hours last Week*/  0,
+		  	     /*Average Hours*/  0,
+			  /*Vacation Accrued*/	"0 hours",
+				    /*Form A*/	false,
+				    /*Form B*/	false,
+				    /*Form C*/	false,
+				    /*Form D*/	false,
+		       /*Form Total Progress*/  100),
 
-	foreach($employees as $name => $progress){
+		"Brickman, Bill" => new Employee(
+				/*First Name*/	"Bill",
+				 /*Last Name*/	"Brickman",
+				 /*Job Title*/	"Job Title",
+				  /*Benefits*/	"Package A",
+				  /*Pay Rate*/	"$0 per year",
+			   /*Hours this Week*/  0,
+			   /*Hours last Week*/  0,
+		  	     /*Average Hours*/  0,
+			  /*Vacation Accrued*/	"0 hours",
+				    /*Form A*/	false,
+				    /*Form B*/	false,
+				    /*Form C*/	false,
+				    /*Form D*/	false,
+		       /*Form Total Progress*/  20),
+	);
+	
+
+
+	foreach($employees as $name => $emp){
 		echo '<div class="employee-sidebar-item">';
 		echo '<div class="employee-sidebar-item-name">'.$name.'</div>';
 		echo '<div class="progress">';
 
 
 		$progessBarColor;
-		if ($progress == 100) $progessBarColor = "progress-bar progress-bar-success";
-		else if ($progress > 40) $progessBarColor = "progress-bar progress-bar-warning";
+		if ($emp->formProgress == 100) $progessBarColor = "progress-bar progress-bar-success";
+		else if ($emp->formProgress > 40) $progessBarColor = "progress-bar progress-bar-warning";
 		else $progessBarColor="progress-bar progress-bar-danger";
 
 
-		echo '<div class="'.$progessBarColor.'" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: '.$progress.'%">';
+		echo '<div class="'.$progessBarColor.'" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: '.$emp->formProgress.'%">';
 		echo '<span class="sr-only">40% Complete (success)</span>';
 		echo "</div>";
 		echo "</div>";
