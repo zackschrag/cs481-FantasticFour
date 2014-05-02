@@ -2,7 +2,7 @@
 <?php include(dirname(__FILE__).'/common/functions/setupEverything.php');?>
 <!--xml header-->
 <?php include(dirname(__FILE__).'/common/xmlhead.php');?>
-<title>TITLE TEST</title>
+<title>SECOND</title>
 <!--end head-->
 <?php include(dirname(__FILE__).'/common/top.php');?>
 

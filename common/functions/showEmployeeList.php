@@ -2,7 +2,7 @@
 foreach($employees as $name => $emp){
 		echo '<a href="viewEmployee.php?employee='.$name.'">';
 		echo '<div class="employee-sidebar-item">';
-		echo '<div class="employee-sidebar-item-name">'.$name.'</div>';
+		echo '<div class="employee-sidebar-item-name">'.$emp->lastName.", ".$emp->firstName.'</div>';
 		echo '<div class="progress">';
 
 
