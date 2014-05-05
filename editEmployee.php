@@ -6,6 +6,14 @@
 <!--end head-->
 <?php include(dirname(__FILE__).'/common/top.php');?>
 
+
+<div class="container">
+		<div class="row">
+			<div class="col-lg-3 col-md-3">
+				<div class="employee-sidebar">
+					<?php include(dirname(__FILE__).'/common/functions/showEmployeeList.php');?>
+				</div>
+			</div>
 			<?php
 				if ($_GET["employee"]){
 					$empKey = $_GET["employee"];
