@@ -15,7 +15,7 @@
 			</div>
 
 
-<!--<button class="edit-employee-button pull-right btn btn-default" type="button">Edit</button>-->
+			<!--<button class="edit-employee-button pull-right btn btn-default" type="button">Edit</button>-->
 			<?php
 				if ($_GET["employee"]){
 					$empKey = $_GET["employee"];
@@ -118,7 +118,7 @@
 
 
 					echo '<div class="col-lg-6 col-md-6">
-						<h4>Payroll Information</h4>
+						<h4>Forms Status</h4>
 						<table class="table table-striped">
 							<thead>
 							</thead>

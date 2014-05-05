@@ -17,7 +17,8 @@
 			<div class="col-lg-9 col-md-9">
 				<div class="btn-group btn-group-justified add-employee">
 					<div class="btn-group">
-						<button type="button" class="btn btn-primary">Add employee</button>
+						<a class="btn btn-primary" href="addEmployee.php" role="button">Add Employee</a>
+						<!--<button type="button" class="btn btn-primary">Add employee</button>-->
 				</div>
 			</div>
 				<table class="table table-bordered">
