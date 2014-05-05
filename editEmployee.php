@@ -123,7 +123,7 @@
 
 
 					echo '<div class="col-lg-6 col-md-6">
-						<h4>Payroll Information</h4>
+						<h4>Forms Status</h4>
 						<table class="table table-striped">
 							<thead>
 							</thead>

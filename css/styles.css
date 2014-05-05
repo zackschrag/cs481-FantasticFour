@@ -12,8 +12,20 @@ text-decoration: none;
 	color: #fff;
 }
 
+#search-by {
+	margin-top: 3px;
+}
+
 .nav-search-bar {
-	margin-top: 8px;
+	margin-top: 6px;
+}
+
+#nav-search-box {
+	width: 750px;
+}
+
+.nav-search-button {
+	margin-top: 13px;
 }
 
 .employee-sidebar {
@@ -87,3 +99,15 @@ top: 17px;
 	margin-top: 3px;
 }
 
+.addEmployeeForms {
+	float: left;
+}
+
+.modal-title {
+	text-align: center;
+}
+
+.search-icon {
+	height: 34px;
+	margin-top: -4px;
+}
