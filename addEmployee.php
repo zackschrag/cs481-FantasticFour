@@ -9,6 +9,7 @@
 
 <center>
 <form action="index.php" method="post">
+
 	First Name: <br><input type="text" name="fname"><br><br>
 	Last Name: <br><input type="text" name="lname"><br><br>
 	Job Title: <br><input type="text" name="jtitle"><br><br>

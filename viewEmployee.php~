@@ -15,7 +15,7 @@
 			</div>
 
 
-<!--<button class="edit-employee-button pull-right btn btn-default" type="button">Edit</button>-->
+			<!--<button class="edit-employee-button pull-right btn btn-default" type="button">Edit</button>-->
 			<?php
 				if ($_GET["employee"]){
 					$empKey = $_GET["employee"];
@@ -142,6 +142,7 @@
 							</tbody>
 						</table>
 					</div>';
+
 
 					//end second row
 					echo '</div>'; //end row

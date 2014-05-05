@@ -31,8 +31,10 @@
 							</thead>
 							<tbody>
 								<tr>
-									
-    								
+									<td class="row-label">Employee Status</td>
+									<td><input type="" class="form-control" id="empStatus" placeholder="Current Employee"></td>
+								</tr>
+								<tr>	
 									<td class="row-label">First Name</td>
 									<td><input type="" class="form-control" id="firstName" placeholder="'.$employees[$empKey]->firstName.'"></td>
 								</tr>

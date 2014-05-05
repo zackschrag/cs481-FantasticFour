@@ -38,6 +38,10 @@
 							</thead>
 							<tbody>
 								<tr>
+									<td class="row-label">Employee Status</td>
+									<td>Current Employee</td>
+								</tr>
+								<tr>
 									<td class="row-label">First Name</td>
 									<td>'.$employees[$empKey]->firstName.'</td>
 								</tr>
@@ -142,6 +146,7 @@
 							</tbody>
 						</table>
 					</div>';
+
 
 					//end second row
 					echo '</div>'; //end row
