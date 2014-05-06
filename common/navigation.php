@@ -48,19 +48,19 @@
 										</thead>
 										<tbody>
 											<tr>
-												<td class="row-label">Employee A</td>
+												<td class="row-label">Alabastser, John</td>
 												<td><span class="glyphicon glyphicon-ok-circle"></span></td>
 											</tr>
 											<tr>
-												<td class="row-label">Employee B</td>
+												<td class="row-label">Brickman, Bill</td>
 												<td><span class="glyphicon glyphicon-remove-circle"></span></td>
 											</tr>
 											<tr>
-												<td class="row-label">Employee C</td>
+												<td class="row-label">Fullman, Norton</td>
 												<td><span class="glyphicon glyphicon-remove-circle"></span></td>
 											</tr>
 											<tr>
-												<td class="row-label">Employee D</td>
+												<td class="row-label">Hawking, Stephen</td>
 												<td><span class="glyphicon glyphicon-ok-circle"></span></td>
 											</tr>
 										</tbody>

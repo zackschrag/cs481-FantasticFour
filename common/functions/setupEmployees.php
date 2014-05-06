@@ -4,13 +4,13 @@ $employees = array(
 		"Employee1" => new Employee(
 				/*First Name*/	"John",
 				 /*Last Name*/	"Alabastser",
-				 /*Job Title*/	"Job Title",
+				 /*Job Title*/	"Software Developer",
 				  /*Benefits*/	"Package A",
-				  /*Pay Rate*/	"$0 per year",
-			   /*Hours this Week*/  0,
-			   /*Hours last Week*/  0,
-		  	     /*Average Hours*/  0,
-			  /*Vacation Accrued*/	"0 hours",
+				  /*Pay Rate*/	"$10,000 per year",
+			   /*Hours this Week*/  88,
+			   /*Hours last Week*/  30,
+		  	     /*Average Hours*/  50,
+			  /*Vacation Accrued*/	"20 hours",
 				    /*Form A*/	true,
 				    /*Form B*/	true,
 				    /*Form C*/	true,
@@ -35,7 +35,7 @@ $employees = array(
 
 		"Employee3" => new Employee(
 				/*First Name*/	"Charles",
-				 /*Last Name*/	"Linda",
+				 /*Last Name*/	"Cox",
 				 /*Job Title*/	"Job Title",
 				  /*Benefits*/	"Package A",
 				  /*Pay Rate*/	"$0 per year",
@@ -50,8 +50,8 @@ $employees = array(
 		       /*Form Total Progress*/  80),
 
 		"Employee4" => new Employee(
-				/*First Name*/	"Danforth",
-				 /*Last Name*/	"Kyle",
+				/*First Name*/	"Charles",
+				 /*Last Name*/	"Darwin",
 				 /*Job Title*/	"Job Title",
 				  /*Benefits*/	"Package A",
 				  /*Pay Rate*/	"$0 per year",
@@ -66,8 +66,8 @@ $employees = array(
 		       /*Form Total Progress*/  10),
 
 		"Employee5" => new Employee(
-				/*First Name*/	"Gregory",
-				 /*Last Name*/	"Karen",
+				/*First Name*/	"Thomas",
+				 /*Last Name*/	"Edison",
 				 /*Job Title*/	"Job Title",
 				  /*Benefits*/	"Package A",
 				  /*Pay Rate*/	"$0 per year",
@@ -82,8 +82,8 @@ $employees = array(
 		       /*Form Total Progress*/  60),
 
 		"Employee6" => new Employee(
-				/*First Name*/	"First",
-				 /*Last Name*/	"Last",
+				/*First Name*/	"Norton",
+				 /*Last Name*/	"Fullman",
 				 /*Job Title*/	"Job Title",
 				  /*Benefits*/	"Package A",
 				  /*Pay Rate*/	"$0 per year",
@@ -98,8 +98,8 @@ $employees = array(
 		       /*Form Total Progress*/  2),
 
 		"Employee7" => new Employee(
-				/*First Name*/	"First",
-				 /*Last Name*/	"Last",
+				/*First Name*/	"Stephen",
+				 /*Last Name*/	"Hawking",
 				 /*Job Title*/	"Job Title",
 				  /*Benefits*/	"Package A",
 				  /*Pay Rate*/	"$0 per year",
@@ -114,8 +114,8 @@ $employees = array(
 		       /*Form Total Progress*/  100),
 
 		"Employee8" => new Employee(
-				/*First Name*/	"First",
-				 /*Last Name*/	"Last",
+				/*First Name*/	"Isaac",
+				 /*Last Name*/	"Newton",
 				 /*Job Title*/	"Job Title",
 				  /*Benefits*/	"Package A",
 				  /*Pay Rate*/	"$0 per year",
@@ -130,8 +130,8 @@ $employees = array(
 		       /*Form Total Progress*/  80),
 
 		"Employee9" => new Employee(
-				/*First Name*/	"First",
-				 /*Last Name*/	"Last",
+				/*First Name*/	"Mouse",
+				 /*Last Name*/	"Pointer",
 				 /*Job Title*/	"Job Title",
 				  /*Benefits*/	"Package A",
 				  /*Pay Rate*/	"$0 per year",

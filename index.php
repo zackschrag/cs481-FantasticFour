@@ -91,16 +91,16 @@
 						<tr>
 							<td class="row-label" rowspan="2">4/14/14</td>
 							<td>4:55 am</td>
-							<td>Nothing has happened yet.</td>
+							<td>John Alabastser has updated his W-2,W-4,I-9,NDA.</td>
 						</tr>
 						<tr>
 							<td>4:54 am</td>
-							<td>Something will happen.</td>
+							<td>Norton Fullman was added as a new employee.</td>
 						</tr>
 						<tr>
 							<td class="row-label">4/13/14</td>
 							<td>9:00 pm</td>
-							<td>One day...</td>
+							<td>Charles Cox has updated his W-2.</td>
 						</tr>
 					</tbody>
 				</table>

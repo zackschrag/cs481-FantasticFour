@@ -128,19 +128,19 @@
 							</thead>
 							<tbody>
 								<tr>
-									<td class="row-label">Form A</td>
+									<td class="row-label">W-2</td>
 									<td><span class="'.$formAstatus.'"></span></td>
 								</tr>
 								<tr>
-									<td class="row-label">Form B</td>
+									<td class="row-label">W-4</td>
 									<td><span class="'.$formBstatus.'"></span></td>
 								</tr>
 								<tr>
-									<td class="row-label">Form C</td>
+									<td class="row-label">I-9</td>
 									<td><span class="'.$formCstatus.'"></span></td>
 								</tr>
 								<tr>
-									<td class="row-label">Form D</td>
+									<td class="row-label">NDA</td>
 									<td><span class="'.$formDstatus.'"></span></td>
 								</tr>
 							</tbody>
