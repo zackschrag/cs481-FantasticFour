@@ -41,6 +41,19 @@ text-decoration: none;
 	margin-top: 2px;
 }
 
+.employee-sidebar-formeremp {
+	height: 60px;
+	border: solid #ccc 1px;
+	cursor: pointer;
+	margin-top: 2px;
+	background-color: #FF9F9F;
+}
+
+.formerEmpSHIT{
+	margin-top: 18px;
+	margin-left: 20px;
+}
+
 .employee-sidebar-item:hover {
 	background-color: #f0f0f0;
 }
