@@ -1,13 +1,4 @@
 a {
-<<<<<<< HEAD
-	color: #000;
-	text-decoration: none;
-}
-
-a:hover {
-	color: #000;
-	text-decoration: none;
-=======
 color: #000;
 text-decoration: none;
 }
@@ -15,7 +6,6 @@ text-decoration: none;
 a:hover {
 color: #000;
 text-decoration: none;
->>>>>>> jinoSandbox
 }
 
 #login-button > a {
@@ -122,29 +112,6 @@ top: 17px;
 	margin-top: 3px;
 }
 
-<<<<<<< HEAD
-.form-valid {
-	font-size: 25px;
-}
-
-.glyphicon-ok-circle {
-	color: green;
-}
-
-.glyphicon-remove-circle {
-	color: #D9534F;
-}
-
-.content-title > .text-center {
-	font-size: 25px;
-}
-
-
-.edit-employee-button {
-	position: absolute;
-	right: 25px;
-	top: 17px;
-=======
 .addEmployeeForms {
 	float: left;
 }
@@ -178,5 +145,4 @@ top: 17px;
 
 .btn-form {
 	width: 65px;
->>>>>>> jinoSandbox
 }
