@@ -1,4 +1,5 @@
 a {
+<<<<<<< HEAD
 	color: #000;
 	text-decoration: none;
 }
@@ -6,17 +7,40 @@ a {
 a:hover {
 	color: #000;
 	text-decoration: none;
+=======
+color: #000;
+text-decoration: none;
+}
+
+a:hover {
+color: #000;
+text-decoration: none;
+>>>>>>> jinoSandbox
 }
 
 #login-button > a {
 	color: #fff;
 }
 
+#search-by {
+	margin-top: 3px;
+}
+
 .nav-search-bar {
-	margin-top: 8px;
+	margin-top: 6px;
+}
+
+#nav-search-box {
+	width: 750px;
+}
+
+.nav-search-button {
+	margin-top: 13px;
 }
 
 .employee-sidebar {
+	overflow: auto; /*scrollbar*/
+	height: 600px;
 	border: solid black #ccc;
 }
 
@@ -25,6 +49,19 @@ a:hover {
 	border: solid #ccc 1px;
 	cursor: pointer;
 	margin-top: 2px;
+}
+
+.employee-sidebar-formeremp {
+	height: 60px;
+	border: solid #ccc 1px;
+	cursor: pointer;
+	margin-top: 2px;
+	background-color: #FF9F9F;
+}
+
+.formerEmpSHIT{
+	margin-top: 18px;
+	margin-left: 20px;
 }
 
 .employee-sidebar-item:hover {
@@ -53,7 +90,29 @@ a:hover {
 
 .row-label {
 	font-weight: bold;
+
+
 }
+
+.glyphicon-ok-circle {
+color: green;
+}
+
+.glyphicon-remove-circle {
+color: #D9534F;
+}
+
+.content-title > .text-center {
+font-size: 25px;
+}
+
+
+.edit-employee-button {
+position: absolute;
+right: 25px;
+top: 17px;
+}
+
 
 .login-form {
 	width: 400px;
@@ -63,6 +122,7 @@ a:hover {
 	margin-top: 3px;
 }
 
+<<<<<<< HEAD
 .form-valid {
 	font-size: 25px;
 }
@@ -84,4 +144,39 @@ a:hover {
 	position: absolute;
 	right: 25px;
 	top: 17px;
+=======
+.addEmployeeForms {
+	float: left;
+}
+
+.modal-title {
+	text-align: center;
+}
+
+.search-icon {
+	height: 34px;
+	margin-top: -4px;
+}
+
+.chart-item {
+	width: 400px;
+}
+
+.addButton {
+	border-radius: 4px !important;
+}
+
+#importButton {
+	margin-top: 20px;
+	width: 200px;
+	border-radius: 4px !important;
+}
+
+.form-dialog {
+	width: 800px;
+}
+
+.btn-form {
+	width: 65px;
+>>>>>>> jinoSandbox
 }
