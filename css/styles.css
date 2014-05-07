@@ -124,3 +124,25 @@ top: 17px;
 	height: 34px;
 	margin-top: -4px;
 }
+
+.chart-item {
+	width: 400px;
+}
+
+.addButton {
+	border-radius: 4px !important;
+}
+
+#importButton {
+	margin-top: 20px;
+	width: 200px;
+	border-radius: 4px !important;
+}
+
+.form-dialog {
+	width: 800px;
+}
+
+.btn-form {
+	width: 65px;
+}
