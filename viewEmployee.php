@@ -128,25 +128,45 @@
 							</thead>
 							<tbody>
 								<tr>
-									<td class="row-label">W-2</td>
+									<td class="row-label"><button class="btn btn-default btn-form" data-toggle="modal" data-target="#viewForm" >W-2</button></td>
 									<td><span class="'.$formAstatus.'"></span></td>
 								</tr>
 								<tr>
-									<td class="row-label">W-4</td>
+									<td class="row-label"><button class="btn btn-default btn-form" data-toggle="modal" data-target="#viewForm" >W-4</button></td>
 									<td><span class="'.$formBstatus.'"></span></td>
 								</tr>
 								<tr>
-									<td class="row-label">I-9</td>
+									<td class="row-label"><button class="btn btn-default btn-form" data-toggle="modal" data-target="#viewForm" >I-9</button></td>
 									<td><span class="'.$formCstatus.'"></span></td>
 								</tr>
 								<tr>
-									<td class="row-label">NDA</td>
+									<td class="row-label"><button class="btn btn-default btn-form" data-toggle="modal" data-target="#viewForm" >NDA</button></td>
 									<td><span class="'.$formDstatus.'"></span></td>
 								</tr>
 							</tbody>
 						</table>
-					</div>';
+						<div class="modal fade" id="viewForm">
+						<div class="modal-dialog form-dialog">
+						    <div class="modal-content">
+						      <div class="modal-header">
+						        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+						        <h4 class="modal-title">I-9 Alabastser, John</h4>
+						      </div>
+						      <div class="modal-body">
+								<img src="i9.png" />
+						      </div>
+						      <div class="modal-footer">
+						        <button type="button" class="btn btn-primary" data-dismiss="modal">OK</button>
+						      </div>
+						    </div><!-- /.modal-content -->
+						  </div><!-- /.modal-dialog -->
+						</div><!-- /.modal -->
+						</div>';
 
+					echo '<div class="col-lg-6 col-md-6">
+						<h4>John\'s hours</h4>
+						<img class="chart-item" id="john-chart" src="chart.png" />
+					</div>';
 
 					//end second row
 					echo '</div>'; //end row
