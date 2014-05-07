@@ -3,6 +3,8 @@ color: #000;
 text-decoration: none;
 }
 
+
+
 a:hover {
 color: #000;
 text-decoration: none;
@@ -21,7 +23,7 @@ text-decoration: none;
 }
 
 #nav-search-box {
-	width: 750px;
+	width: 600px;
 }
 
 .nav-search-button {

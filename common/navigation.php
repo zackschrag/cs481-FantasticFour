@@ -18,9 +18,9 @@
 				        <input type="text" class="form-control" placeholder="Search by employee or form">
 				      </li>
 				      <li class="dropdown nav-search-button">
-				        	<span class="input-group-btn">
+				        	<!--<div class="input-group-btn">-->
 					        	<button class="btn btn-default search-icon" data-toggle="modal" data-target="#formSearch" type="button"><span class="glyphicon glyphicon-search"></span></button>
-						   	</span>
+						   	<!--</div>-->
 				      </li>
 				    </ul> <!-- /pills -->
 				  </div>
@@ -142,7 +142,7 @@
 					      </div>
 					      <div class="modal-footer">
 					        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-					        <button type="button" class="btn btn-primary" data-dismiss="modal">Save changes</button>
+					        <button type="button" class="btn btn-primary" data-dismiss="modal">Confirm</button>
 					      </div>
 					    </div><!-- /.modal-content -->
 					  </div><!-- /.modal-dialog -->
